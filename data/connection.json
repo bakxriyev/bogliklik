@@ -1,0 +1,723 @@
+{
+    "people": [
+      {
+        "id": "p1",
+        "name": "Kamron",
+        "info": "25 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1998-05-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Dasturchi",
+          "education": "Toshkent Axborot Texnologiyalari Universiteti",
+          "hobbies": ["Futbol", "Kitob o'qish", "Sayohat"],
+          "description": "Kamron zamonaviy texnologiyalar sohasida ishlaydi. U mobil ilovalar va veb-saytlar yaratish bilan shug'ullanadi. Bo'sh vaqtida futbol o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p2",
+        "name": "Zaxro",
+        "info": "23 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "2000-08-22",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Dizayner",
+          "education": "Toshkent Arxitektura va Qurilish Instituti",
+          "hobbies": ["Rasmlar chizish", "Musiqa tinglash", "Pishiriq tayyorlash"],
+          "description": "Zaxro ijodiy soha vakili bo'lib, grafik dizayn bilan shug'ullanadi. U turli kompaniyalar uchun brendlar va logotiplar yaratadi. Bo'sh vaqtida rasmlar chizishni va musiqa tinglashni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p3",
+        "name": "Akmal",
+        "info": "50 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1973-03-10",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Muhandis",
+          "education": "Toshkent Politexnika Instituti",
+          "hobbies": ["Shaxmat", "Baliq ovlash", "Bog'dorchilik"],
+          "description": "Akmal tajribali muhandis bo'lib, ko'p yillardan beri qurilish sohasida ishlaydi. U bir nechta yirik loyihalarni muvaffaqiyatli amalga oshirgan. Bo'sh vaqtida shaxmat o'ynashni va baliq ovlashni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p4",
+        "name": "Gulnora",
+        "info": "48 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1975-11-05",
+          "birthPlace": "Samarqand, O'zbekiston",
+          "occupation": "O'qituvchi",
+          "education": "Toshkent Davlat Pedagogika Universiteti",
+          "hobbies": ["Tikish", "Kitob o'qish", "Sayohat"],
+          "description": "Gulnora maktabda matematika o'qituvchisi bo'lib ishlaydi. U o'quvchilarini sevadi va ularga bilim berishdan zavqlanadi. Bo'sh vaqtida tikish bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p5",
+        "name": "Sardor",
+        "info": "26 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1997-07-18",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Marketolog",
+          "education": "Toshkent Davlat Iqtisodiyot Universiteti",
+          "hobbies": ["Futbol", "Fotografiya", "Sayohat"],
+          "description": "Sardor marketing sohasida ishlaydi va ijtimoiy tarmoqlarda reklama kampaniyalarini olib boradi. U yangi g'oyalarni o'ylab topishni va ularni amalga oshirishni yaxshi ko'radi. Bo'sh vaqtida fotografiya bilan shug'ullanadi."
+        }
+      },
+      {
+        "id": "p6",
+        "name": "Malika",
+        "info": "24 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1999-04-30",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Jurnalist",
+          "education": "O'zbekiston Milliy Universiteti",
+          "hobbies": ["Yozish", "Kitob o'qish", "Sayohat"],
+          "description": "Malika mahalliy gazetada jurnalist bo'lib ishlaydi. U turli mavzularda maqolalar yozadi va intervyular oladi. Bo'sh vaqtida kitob o'qishni va sayohat qilishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p7",
+        "name": "Javohir",
+        "info": "30 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1993-09-12",
+          "birthPlace": "Buxoro, O'zbekiston",
+          "occupation": "Tadbirkor",
+          "education": "Toshkent Davlat Iqtisodiyot Universiteti",
+          "hobbies": ["Tennis", "Kitob o'qish", "Sayohat"],
+          "description": "Javohir o'z biznesini yuritadi va kichik restoran zanjirining egasi. U ishbilarmonlik va menejment sohasida katta tajribaga ega. Bo'sh vaqtida tennis o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p8",
+        "name": "Nilufar",
+        "info": "28 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1995-02-25",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Shifokor",
+          "education": "Toshkent Tibbiyot Akademiyasi",
+          "hobbies": ["Yoga", "Pishiriq tayyorlash", "Musiqa tinglash"],
+          "description": "Nilufar shifoxonada pediatr bo'lib ishlaydi. U bolalarni davolashni va ularga g'amxo'rlik qilishni yaxshi ko'radi. Bo'sh vaqtida yoga bilan shug'ullanadi va pishiriq tayyorlashni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p9",
+        "name": "Rustam",
+        "info": "55 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1968-12-03",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Huquqshunos",
+          "education": "Toshkent Davlat Yuridik Universiteti",
+          "hobbies": ["Shaxmat", "Tarix kitoblarini o'qish", "Sayohat"],
+          "description": "Rustam tajribali huquqshunos bo'lib, o'z yuridik firmasiga ega. U ko'p yillardan beri huquq sohasida ishlaydi va murakkab ishlarni hal qilishda tajribaga ega. Bo'sh vaqtida shaxmat o'ynashni va tarix kitoblarini o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p10",
+        "name": "Nodira",
+        "info": "52 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1971-06-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Iqtisodchi",
+          "education": "Toshkent Davlat Iqtisodiyot Universiteti",
+          "hobbies": ["Bog'dorchilik", "Kitob o'qish", "Sayohat"],
+          "description": "Nodira yirik kompaniyada moliya direktori bo'lib ishlaydi. U moliya va iqtisod sohasida katta tajribaga ega. Bo'sh vaqtida bog'dorchilik bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p11",
+        "name": "Bobur",
+        "info": "27 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1996-01-20",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Arxitektor",
+          "education": "Toshkent Arxitektura va Qurilish Instituti",
+          "hobbies": ["Chizish", "Fotografiya", "Sayohat"],
+          "description": "Bobur arxitektura firmasida ishlaydi va turli binolar loyihalarini yaratadi. U ijodiy fikrlashni va yangi g'oyalarni amalga oshirishni yaxshi ko'radi. Bo'sh vaqtida chizish va fotografiya bilan shug'ullanadi."
+        }
+      },
+      {
+        "id": "p12",
+        "name": "Sabina",
+        "info": "25 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1998-08-10",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Tarjimon",
+          "education": "O'zbekiston Davlat Jahon Tillari Universiteti",
+          "hobbies": ["Kitob o'qish", "Sayohat", "Chet tillarini o'rganish"],
+          "description": "Sabina erkin tarjimon bo'lib ishlaydi va bir nechta tillarda tarjima qiladi. U chet tillarini o'rganishni va turli madaniyatlar bilan tanishishni yaxshi ko'radi. Bo'sh vaqtida kitob o'qishni va sayohat qilishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p13",
+        "name": "Dilshod",
+        "info": "32 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1991-03-05",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Dasturchi",
+          "education": "Toshkent Axborot Texnologiyalari Universiteti",
+          "hobbies": ["Dasturlash", "Kitob o'qish", "Velosiped haydash"],
+          "description": "Dilshod IT kompaniyasida dasturchi bo'lib ishlaydi. U murakkab dasturiy ta'minotlarni yaratish va muammolarni hal qilishni yaxshi ko'radi. Bo'sh vaqtida kitob o'qishni va velosiped haydashni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p14",
+        "name": "Madina",
+        "info": "30 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1993-11-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Dizayner",
+          "education": "Toshkent Arxitektura va Qurilish Instituti",
+          "hobbies": ["Rasmlar chizish", "Fotografiya", "Sayohat"],
+          "description": "Madina dizayn studiyasida ishlaydi va turli loyihalar ustida ishlaydi. U ijodiy fikrlashni va yangi g'oyalarni amalga oshirishni yaxshi ko'radi. Bo'sh vaqtida rasmlar chizishni va fotografiya bilan shug'ullanishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p15",
+        "name": "Jamshid",
+        "info": "29 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1994-07-20",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Muhandis",
+          "education": "Toshkent Politexnika Instituti",
+          "hobbies": ["Futbol", "Kitob o'qish", "Sayohat"],
+          "description": "Jamshid qurilish kompaniyasida muhandis bo'lib ishlaydi. U turli loyihalarni amalga oshirish va muammolarni hal qilishda tajribaga ega. Bo'sh vaqtida futbol o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p16",
+        "name": "Aziza",
+        "info": "27 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1996-09-12",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "O'qituvchi",
+          "education": "Toshkent Davlat Pedagogika Universiteti",
+          "hobbies": ["Kitob o'qish", "Rasmlar chizish", "Sayohat"],
+          "description": "Aziza maktabda ingliz tili o'qituvchisi bo'lib ishlaydi. U o'quvchilariga bilim berishni va ularning rivojlanishiga yordam berishni yaxshi ko'radi. Bo'sh vaqtida kitob o'qishni va rasmlar chizishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p17",
+        "name": "Sherzod",
+        "info": "31 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1992-05-18",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Sportchi",
+          "education": "O'zbekiston Davlat Jismoniy Tarbiya Instituti",
+          "hobbies": ["Sport", "Kitob o'qish", "Sayohat"],
+          "description": "Sherzod professional sportchi bo'lib, bir nechta musobaqalarda g'olib bo'lgan. U sport bilan shug'ullanishni va yangi marralarni zabt etishni yaxshi ko'radi. Bo'sh vaqtida kitob o'qishni va sayohat qilishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p18",
+        "name": "Feruza",
+        "info": "29 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1994-02-10",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Jurnalist",
+          "education": "O'zbekiston Milliy Universiteti",
+          "hobbies": ["Yozish", "Fotografiya", "Sayohat"],
+          "description": "Feruza televideniyeda jurnalist bo'lib ishlaydi. U turli mavzularda reportajlar tayyorlaydi va intervyular oladi. Bo'sh vaqtida yozish va fotografiya bilan shug'ullanishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p19",
+        "name": "Ulug'bek",
+        "info": "33 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1990-10-05",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Tadbirkor",
+          "education": "Toshkent Davlat Iqtisodiyot Universiteti",
+          "hobbies": ["Shaxmat", "Kitob o'qish", "Sayohat"],
+          "description": "Ulug'bek o'z biznesini yuritadi va savdo sohasida ishlaydi. U ishbilarmonlik va menejment sohasida katta tajribaga ega. Bo'sh vaqtida shaxmat o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p20",
+        "name": "Dilfuza",
+        "info": "31 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1992-12-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Dizayner",
+          "education": "Toshkent Arxitektura va Qurilish Instituti",
+          "hobbies": ["Rasmlar chizish", "Musiqa tinglash", "Sayohat"],
+          "description": "Dilfuza dizayn studiyasida ishlaydi va turli loyihalar ustida ishlaydi. U ijodiy fikrlashni va yangi g'oyalarni amalga oshirishni yaxshi ko'radi. Bo'sh vaqtida rasmlar chizishni va musiqa tinglashni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p21",
+        "name": "Tohir",
+        "info": "60 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1963-04-20",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Muhandis",
+          "education": "Toshkent Politexnika Instituti",
+          "hobbies": ["Bog'dorchilik", "Kitob o'qish", "Sayohat"],
+          "description": "Tohir tajribali muhandis bo'lib, ko'p yillardan beri qurilish sohasida ishlaydi. U bir nechta yirik loyihalarni muvaffaqiyatli amalga oshirgan. Bo'sh vaqtida bog'dorchilik bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p22",
+        "name": "Ziyoda",
+        "info": "58 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1965-08-10",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "O'qituvchi",
+          "education": "Toshkent Davlat Pedagogika Universiteti",
+          "hobbies": ["Tikish", "Kitob o'qish", "Bog'dorchilik"],
+          "description": "Ziyoda maktabda o'qituvchi bo'lib ishlaydi. U o'quvchilariga bilim berishni va ularning rivojlanishiga yordam berishni yaxshi ko'radi. Bo'sh vaqtida tikish bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p23",
+        "name": "Jasur",
+        "info": "35 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1988-03-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Huquqshunos",
+          "education": "Toshkent Davlat Yuridik Universiteti",
+          "hobbies": ["Tennis", "Kitob o'qish", "Sayohat"],
+          "description": "Jasur advokatlik firmasida ishlaydi va turli huquqiy masalalar bo'yicha maslahatlar beradi. U huquq sohasida katta tajribaga ega. Bo'sh vaqtida tennis o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p24",
+        "name": "Lola",
+        "info": "33 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1990-06-20",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "O'qituvchi",
+          "education": "Toshkent Davlat Pedagogika Universiteti",
+          "hobbies": ["Kitob o'qish", "Rasmlar chizish", "Sayohat"],
+          "description": "Lola universitetda o'qituvchi bo'lib ishlaydi. U talabalarga bilim berishni va ularning rivojlanishiga yordam berishni yaxshi ko'radi. Bo'sh vaqtida kitob o'qishni va rasmlar chizishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p25",
+        "name": "Anvar",
+        "info": "40 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1983-09-10",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Tadbirkor",
+          "education": "Toshkent Davlat Iqtisodiyot Universiteti",
+          "hobbies": ["Futbol", "Kitob o'qish", "Sayohat"],
+          "description": "Anvar o'z biznesini yuritadi va savdo sohasida ishlaydi. U ishbilarmonlik va menejment sohasida katta tajribaga ega. Bo'sh vaqtida futbol o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p26",
+        "name": "Sevara",
+        "info": "38 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1985-11-25",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Shifokor",
+          "education": "Toshkent Tibbiyot Akademiyasi",
+          "hobbies": ["Yoga", "Kitob o'qish", "Sayohat"],
+          "description": "Sevara shifoxonada shifokor bo'lib ishlaydi. U bemorlarni davolashni va ularga g'amxo'rlik qilishni yaxshi ko'radi. Bo'sh vaqtida yoga bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p27",
+        "name": "Nodir",
+        "info": "42 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1981-02-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Muhandis",
+          "education": "Toshkent Politexnika Instituti",
+          "hobbies": ["Shaxmat", "Kitob o'qish", "Sayohat"],
+          "description": "Nodir qurilish kompaniyasida muhandis bo'lib ishlaydi. U turli loyihalarni amalga oshirish va muammolarni hal qilishda tajribaga ega. Bo'sh vaqtida shaxmat o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p28",
+        "name": "Kamola",
+        "info": "40 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1983-05-10",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Hamshira",
+          "education": "Toshkent Tibbiyot Kolleji",
+          "hobbies": ["Tikish", "Kitob o'qish", "Sayohat"],
+          "description": "Kamola shifoxonada hamshira bo'lib ishlaydi. U bemorlarni parvarish qilishni va ularga g'amxo'rlik qilishni yaxshi ko'radi. Bo'sh vaqtida tikish bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p29",
+        "name": "Davron",
+        "info": "45 yosh, Toshkent",
+        "gender": "male",
+        "details": {
+          "birthDate": "1978-07-20",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Professor",
+          "education": "Toshkent Davlat Universiteti",
+          "hobbies": ["Shaxmat", "Kitob o'qish", "Sayohat"],
+          "description": "Davron universitetda professor bo'lib ishlaydi. U talabalarga bilim berishni va ilmiy tadqiqotlar olib borishni yaxshi ko'radi. Bo'sh vaqtida shaxmat o'ynashni va kitob o'qishni yaxshi ko'radi."
+        }
+      },
+      {
+        "id": "p30",
+        "name": "Nargiza",
+        "info": "43 yosh, Toshkent",
+        "gender": "female",
+        "details": {
+          "birthDate": "1980-09-15",
+          "birthPlace": "Toshkent, O'zbekiston",
+          "occupation": "Iqtisodchi",
+          "education": "Toshkent Davlat Iqtisodiyot Universiteti",
+          "hobbies": ["Bog'dorchilik", "Kitob o'qish", "Sayohat"],
+          "description": "Nargiza bankda iqtisodchi bo'lib ishlaydi. U moliya va iqtisod sohasida katta tajribaga ega. Bo'sh vaqtida bog'dorchilik bilan shug'ullanadi va kitob o'qishni yaxshi ko'radi."
+        }
+      }
+    ],
+    "connections": [
+      {
+        "source": "p1",
+        "target": "p3",
+        "relationship": "Otasi"
+      },
+      {
+        "source": "p1",
+        "target": "p4",
+        "relationship": "Onasi"
+      },
+      {
+        "source": "p3",
+        "target": "p4",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p3",
+        "target": "p9",
+        "relationship": "Do'sti"
+      },
+      {
+        "source": "p9",
+        "target": "p10",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p9",
+        "target": "p2",
+        "relationship": "Qizi"
+      },
+      {
+        "source": "p1",
+        "target": "p5",
+        "relationship": "Sinfdoshi"
+      },
+      {
+        "source": "p5",
+        "target": "p6",
+        "relationship": "Sinfdoshi"
+      },
+      {
+        "source": "p6",
+        "target": "p2",
+        "relationship": "Dugonasi"
+      },
+      {
+        "source": "p1",
+        "target": "p11",
+        "relationship": "Kursdoshi"
+      },
+      {
+        "source": "p11",
+        "target": "p12",
+        "relationship": "Do'sti"
+      },
+      {
+        "source": "p12",
+        "target": "p2",
+        "relationship": "Kursdoshi"
+      },
+      {
+        "source": "p1",
+        "target": "p7",
+        "relationship": "Qo'shnisi"
+      },
+      {
+        "source": "p7",
+        "target": "p8",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p8",
+        "target": "p2",
+        "relationship": "Singlisi"
+      },
+      {
+        "source": "p1",
+        "target": "p13",
+        "relationship": "Hamkasbi"
+      },
+      {
+        "source": "p13",
+        "target": "p14",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p14",
+        "target": "p2",
+        "relationship": "Hamkasbi"
+      },
+      {
+        "source": "p3",
+        "target": "p15",
+        "relationship": "Hamkasbi"
+      },
+      {
+        "source": "p15",
+        "target": "p16",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p16",
+        "target": "p2",
+        "relationship": "Dugonasi"
+      },
+      {
+        "source": "p4",
+        "target": "p17",
+        "relationship": "Qarindoshi"
+      },
+      {
+        "source": "p17",
+        "target": "p18",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p18",
+        "target": "p2",
+        "relationship": "Qo'shnisi"
+      },
+      {
+        "source": "p5",
+        "target": "p19",
+        "relationship": "Akasi"
+      },
+      {
+        "source": "p19",
+        "target": "p20",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p20",
+        "target": "p2",
+        "relationship": "Hamkasbi"
+      },
+      {
+        "source": "p3",
+        "target": "p21",
+        "relationship": "Otasi"
+      },
+      {
+        "source": "p21",
+        "target": "p22",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p22",
+        "target": "p2",
+        "relationship": "Buvisining dugonasi"
+      },
+      {
+        "source": "p4",
+        "target": "p23",
+        "relationship": "Jiyani"
+      },
+      {
+        "source": "p23",
+        "target": "p24",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p24",
+        "target": "p2",
+        "relationship": "Ustozi"
+      },
+      {
+        "source": "p5",
+        "target": "p25",
+        "relationship": "Amakisi"
+      },
+      {
+        "source": "p25",
+        "target": "p26",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p26",
+        "target": "p2",
+        "relationship": "Qo'shnisining singlisi"
+      },
+      {
+        "source": "p7",
+        "target": "p27",
+        "relationship": "Tog'asi"
+      },
+      {
+        "source": "p27",
+        "target": "p28",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p28",
+        "target": "p2",
+        "relationship": "Hamshirasi"
+      },
+      {
+        "source": "p11",
+        "target": "p29",
+        "relationship": "Ustozi"
+      },
+      {
+        "source": "p29",
+        "target": "p30",
+        "relationship": "Turmush o'rtog'i"
+      },
+      {
+        "source": "p30",
+        "target": "p2",
+        "relationship": "Xolasi"
+      }
+    ],
+    "connectionPaths": [
+      {
+        "id": "path1",
+        "path": ["Kamron", "Akmal", "Rustam", "Zaxro"],
+        "relationships": ["Otasi", "Do'sti", "Qizi"],
+        "description": "Kamronning otasi Akmalning do'sti Rustamning qizi Zaxro",
+        "color": "#ef4444"
+      },
+      {
+        "id": "path2",
+        "path": ["Kamron", "Sardor", "Malika", "Zaxro"],
+        "relationships": ["Sinfdoshi", "Sinfdoshi", "Dugonasi"],
+        "description": "Kamronning sinfdoshi Sardorning sinfdoshi Malikaning dugonasi Zaxro",
+        "color": "#f97316"
+      },
+      {
+        "id": "path3",
+        "path": ["Kamron", "Bobur", "Sabina", "Zaxro"],
+        "relationships": ["Kursdoshi", "Do'sti", "Kursdoshi"],
+        "description": "Kamronning kursdoshi Boburning do'sti Sabinaning kursdoshi Zaxro",
+        "color": "#eab308"
+      },
+      {
+        "id": "path4",
+        "path": ["Kamron", "Javohir", "Nilufar", "Zaxro"],
+        "relationships": ["Qo'shnisi", "Turmush o'rtog'i", "Singlisi"],
+        "description": "Kamronning qo'shnisi Javohirning turmush o'rtog'i Nilufarning singlisi Zaxro",
+        "color": "#22c55e"
+      },
+      {
+        "id": "path5",
+        "path": ["Kamron", "Dilshod", "Madina", "Zaxro"],
+        "relationships": ["Hamkasbi", "Turmush o'rtog'i", "Hamkasbi"],
+        "description": "Kamronning hamkasbi Dilshodning turmush o'rtog'i Madinaning hamkasbi Zaxro",
+        "color": "#06b6d4"
+      },
+      {
+        "id": "path6",
+        "path": ["Kamron", "Akmal", "Jamshid", "Aziza", "Zaxro"],
+        "relationships": ["Otasi", "Hamkasbi", "Turmush o'rtog'i", "Dugonasi"],
+        "description": "Kamronning otasi Akmalning hamkasbi Jamshidning turmush o'rtog'i Azizaning dugonasi Zaxro",
+        "color": "#3b82f6"
+      },
+      {
+        "id": "path7",
+        "path": ["Kamron", "Gulnora", "Sherzod", "Feruza", "Zaxro"],
+        "relationships": ["Onasi", "Qarindoshi", "Turmush o'rtog'i", "Qo'shnisi"],
+        "description": "Kamronning onasi Gulnoraning qarindoshi Sherzodning turmush o'rtog'i Feruzaning qo'shnisi Zaxro",
+        "color": "#8b5cf6"
+      },
+      {
+        "id": "path8",
+        "path": ["Kamron", "Akmal", "Tohir", "Ziyoda", "Zaxro"],
+        "relationships": ["Otasi", "Otasi", "Turmush o'rtog'i", "Buvisining dugonasi"],
+        "description": "Kamronning otasi Akmalning otasi Tohirning turmush o'rtog'i Ziyodaning buvisining dugonasi Zaxro",
+        "color": "#d946ef"
+      },
+      {
+        "id": "path9",
+        "path": ["Kamron", "Gulnora", "Jasur", "Lola", "Zaxro"],
+        "relationships": ["Onasi", "Jiyani", "Turmush o'rtog'i", "Ustozi"],
+        "description": "Kamronning onasi Gulnoraning jiyani Jasurning turmush o'rtog'i Lolaning ustozi Zaxro",
+        "color": "#ec4899"
+      },
+      {
+        "id": "path10",
+        "path": ["Kamron", "Sardor", "Anvar", "Sevara", "Zaxro"],
+        "relationships": ["Sinfdoshi", "Amakisi", "Turmush o'rtog'i", "Qo'shnisining singlisi"],
+        "description": "Kamronning sinfdoshi Sardorning amakisi Anvarning turmush o'rtog'i Sevaraning qo'shnisining singlisi Zaxro",
+        "color": "#f43f5e"
+      },
+      {
+        "id": "path11",
+        "path": ["Kamron", "Javohir", "Nodir", "Kamola", "Zaxro"],
+        "relationships": ["Qo'shnisi", "Tog'asi", "Turmush o'rtog'i", "Hamshirasi"],
+        "description": "Kamronning qo'shnisi Javohirning tog'asi Nodirning turmush o'rtog'i Kamolaning hamshirasi Zaxro",
+        "color": "#84cc16"
+      },
+      {
+        "id": "path12",
+        "path": ["Kamron", "Bobur", "Davron", "Nargiza", "Zaxro"],
+        "relationships": ["Kursdoshi", "Ustozi", "Turmush o'rtog'i", "Xolasi"],
+        "description": "Kamronning kursdoshi Boburning ustozi Davronning turmush o'rtog'i Nargizaning xolasi Zaxro",
+        "color": "#14b8a6"
+      }
+    ]
+  }
+  

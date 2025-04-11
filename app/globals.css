@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Custom colors for the visualization */
+:root {
+  --person-color-main: #3b82f6;
+  --person-color-target: #8b5cf6;
+  --person-color-intermediate: #ffffff;
+  --person-color-other: #d1d5db;
+  --connection-color: #000000;
+  --text-color: #000000;
+  --text-color-secondary: #4b5563;
+  --background-color: #f9fafb;
+  --card-background: #ffffff;
+  --border-color: #e5e7eb;
+
+  /* Path colors */
+  --path-color-1: #ef4444;
+  --path-color-2: #f97316;
+  --path-color-3: #eab308;
+  --path-color-4: #22c55e;
+  --path-color-5: #06b6d4;
+  --path-color-6: #3b82f6;
+  --path-color-7: #8b5cf6;
+  --path-color-8: #d946ef;
+  --path-color-9: #ec4899;
+  --path-color-10: #f43f5e;
+  --path-color-11: #84cc16;
+  --path-color-12: #14b8a6;
+}
